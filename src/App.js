@@ -13,6 +13,13 @@ export default function App() {
         push the boundaries of what's possible.
       </TextExpander>
 
+      <TextExpander expanded={true} className="box">
+        Space missions have given us incredible insights into our universe and
+        have inspired future generations to keep reaching for the stars. Space
+        travel is a pretty cool thing to think about. Who knows what we'll
+        discover next!
+      </TextExpander>
+
       <TextExpander
         collapsedNumWords={20}
         expandButtonText="Show text"
@@ -25,12 +32,7 @@ export default function App() {
         results are out of this world.
       </TextExpander>
 
-      <TextExpander expanded={true} className="box">
-        Space missions have given us incredible insights into our universe and
-        have inspired future generations to keep reaching for the stars. Space
-        travel is a pretty cool thing to think about. Who knows what we'll
-        discover next!
-      </TextExpander>
+      
     </div>
   );
 }
